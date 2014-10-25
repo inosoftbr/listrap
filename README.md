@@ -1,7 +1,7 @@
 listrap
 =======
 
-<img src="https://raw.githubusercontent.com/inosoftbr/listrap/master/example.png" />
+<img src="https://raw.githubusercontent.com/inosoftbr/listrap/master/example.png" style="height: 50px;" />
 
 Listrap is a Bootstrap plugin for generate selectable lists by selecting item's thumbnail, ideal for mobile applications.
 
