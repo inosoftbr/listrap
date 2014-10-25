@@ -1,0 +1,59 @@
+﻿/*
+// Listrap v1.0, by Gustavo Gondim (http://github.com/ggondim)
+// Licenced under MIT License
+// For updates, improvements and issues, see https://github.com/inosoftbr/listrap
+*/
+.listrap {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    .listrap li {
+        margin: 0;
+        padding: 10px;
+    }
+
+        .listrap li.active, .listrap li:hover {
+            background-color: #d9edf7;
+        }
+
+    .listrap strong {
+        margin-left: 10px;
+    }
+
+    .listrap .listrap-toggle {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+    }
+
+        .listrap .listrap-toggle span {
+            background-color: #428bca;
+            opacity: 0.8;
+            z-index: 100;
+            width: 60px;
+            height: 60px;
+            display: none;
+            position: absolute;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            vertical-align: middle;
+            color: #ffffff;
+        }
+
+            .listrap .listrap-toggle span:before {
+                font-family: 'Glyphicons Halflings';
+                content: "\e013";
+            }
+
+    .listrap li.active .listrap-toggle span {
+        display: block;
+    }
