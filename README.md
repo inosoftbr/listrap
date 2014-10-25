@@ -36,7 +36,7 @@ Returns an array with <code>li</code> selected elements.
 
 <h4>selection-changed</h4>
 
-Triggered when a item is selected. [selection] argument is optional.
+Triggered when an item is selected. <code>selection</code> argument is optional.
 
     $("yourselector").listrap().on("selection-changed", function(selection) {
       console.log(selection);
