@@ -3,6 +3,8 @@ listrap
 
 Listrap is a Bootstrap plugin for generate selectable lists by selecting item's thumbnail, ideal for mobile applications.
 
+For a live example, see http://bootsnipp.com/snippets/v8RXA.
+
 <h3>How to use</h3>
 
 HTML
